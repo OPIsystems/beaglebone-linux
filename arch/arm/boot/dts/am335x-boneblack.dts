@@ -133,6 +133,7 @@
 /* i2c1: P9.17, P9.18 */
 /* gpio: P8.26 (mfp: wakeup) */
 /* #include "am335x-bone-rtc-01-00a1.dtsi" */
+#include "am335x-e3b-rtc.dtsi"
 
 /* http://elinux.org/Cryptotronix:CryptoCape */
 /* uart4: P9.11, P9.13 */
