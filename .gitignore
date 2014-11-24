@@ -52,6 +52,11 @@ modules.builtin
 /debian/
 
 #
+# Debs directory (make deb-pkg)
+#
+/debs/
+
+#
 # git files that we don't want to ignore even it they are dot-files
 #
 !.gitignore
