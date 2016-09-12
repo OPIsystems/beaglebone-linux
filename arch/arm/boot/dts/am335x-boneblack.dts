@@ -11,6 +11,9 @@
 #include "am335x-bone-common.dtsi"
 #include "am33xx-overlay-edma-fix.dtsi"
 #include <dt-bindings/display/tda998x.h>
+#include "am335x-bone-pinmux-ttyS2.dtsi"
+#include "am335x-bone-pinmux-ttyS4.dtsi"
+
 /* #include "am335x-bone-jtag.dtsi" */
 
 /* pruss: pick one: */
