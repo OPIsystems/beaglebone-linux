@@ -144,6 +144,20 @@
 	};
 };
 
+&i2c2 {
+        pinctrl-names = "default";
+        pinctrl-0 = <&i2c2_pins>;
+
+        status = "okay";
+        clock-frequency = <100000>;
+
+        rtc@68 {
+                compatible = "maxim,ds1307";
+                reg = <0x68>;
+        };
+};
+
+
 &mcasp0	{
 	#sound-dai-cells = <0>;
 	pinctrl-names = "default";
